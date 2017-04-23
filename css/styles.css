@@ -24,7 +24,7 @@ video {
   z-index: 1;
 }
 
-.filter {
+.wrapper {
   position: absolute;
   z-index: 2;
   background: rgba(108,122,137,0.4);
@@ -63,10 +63,14 @@ footer {
   border-top: 3.5px solid rgba(142, 68, 173, .5);
   display: block;
   float: left;
-  /*clear: both;*/
 }
 
-button {
+footer:hover {
+  background-color: rgb(142, 68, 173);
+  color: orange;
+}
+
+footer p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
   margin: 0 auto;
@@ -76,14 +80,6 @@ button {
   background-color: transparent;
   align-content: space-around;
   font-weight: 900;
-}
-
-button:hover {
-    color: black;
-}
-
-button:focus {
-  outline:0;
 }
 
 
@@ -97,8 +93,7 @@ hr {
 }
 
 .icon {
-  padding-top: 15px;
-  padding-right: 20px;
+  padding: 15px 10px 0 10px;
   color: white;
   text-shadow: 2px 2px black;
 }
