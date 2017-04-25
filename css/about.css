@@ -10,7 +10,7 @@ body {
   margin: 0;
   background-color: honeydew;
   background-image: url(../samuel-zeller-157385.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   /*background-position: center;*/
 }
