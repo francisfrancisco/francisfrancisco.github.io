@@ -27,7 +27,7 @@ h1 {
   margin: 0;
   font-family: 'Rock Salt', cursive;
   color: rgba(249, 105, 14, .6);
-  text-shadow: 0 0 10px #F9690E;
+  text-shadow: 0 0 10px #F9690E, 0 0 15px #F9690E, 0 0 5px #F9690E, 0 0 25px #F9690E;
 }
 
 a {
