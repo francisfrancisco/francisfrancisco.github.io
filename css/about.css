@@ -12,7 +12,7 @@ body {
   background-image: url(../samuel-zeller-157385.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
 }
 
 #container {
@@ -26,8 +26,8 @@ h1 {
   padding: 0;
   margin: 0;
   font-family: 'Rock Salt', cursive;
-  color: #F9690E;
-  text-shadow: 3px 3px blue;
+  color: rgba(249, 105, 14, .6);
+  text-shadow: 0 0 10px #F9690E;
 }
 
 a {
