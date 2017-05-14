@@ -6,12 +6,12 @@ body, html {
   font-size: 16px;
 }
 
-/*.firstPage {
+.firstPage {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%
-}*/
+}
 
 /*--------------------------------------
  firstPage background
@@ -19,8 +19,6 @@ body, html {
 
 video {
   position: fixed;
-  display: block;
-  /*clear: both;*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -106,7 +104,7 @@ hr {
   text-align: center;
   bottom: 0;
   border-top: 3.5px solid rgba(142, 68, 173, .5);
-  display: block;
+  display: inline;
   float: left;
   display: flex;
   justify-content: space-around;
@@ -134,7 +132,7 @@ hr {
 /*--------------------------------------
   smaller screens
 --------------------------------------*/
-@media (max-width: 660px){
+@media screen and (max-width: 480px){
     #clicked {
       height: 10%;
       align-items: center;
@@ -150,5 +148,8 @@ hr {
     }
     .icons {
       flex-wrap: wrap;
+    }
+    h1 {
+      font-size: .75em;
     }
 }
