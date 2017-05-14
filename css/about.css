@@ -1,40 +1,173 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-html {
-  padding: 0;
-  margin: 0;
-}
-body {
+html, body {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: honeydew;
-  background-image: url(../samuel-zeller-157385.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*background-position: center;*/
+  font-size: 16px
 }
 
 #container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-}
-
-h1 {
-  padding: 0;
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: 'Rock Salt', cursive;
-  color: rgba(249, 105, 14, .6);
-  text-shadow: 0 0 10px #F9690E, 0 0 15px #F9690E, 0 0 5px #F9690E, 0 0 25px #F9690E;
+  padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+nav {
+  top: 50%;
+  margin-left: 45px;
+  transform: translate(-50%, -50%);
+  padding: 0;
+   //postion: aboslute;
+  z-index: 2;
 }
 
-a:visited {
+.circle {
+  margin: 15px 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  border: 2px solid rgba(255,255,255,.8);
+  border-radius: 50%;
+  background-color: transparent;
+  clear: both;
+}
+
+.circle:hover {
+  border: 2px solid white;
+  /*cursor: pointer;*/
+}
+/*------------------------------------
+ about page
+------------------------------------*/
+#aboutContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #2C3E50;
+   //postion: aboslute;
+}
+
+.picture {
+  width: 50%;
+  height: 100%;
+  background-image: url(../mememe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+.bio {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(31,58,147,.4);
+  float: right;
+}
+
+.bio p {
+  text-align: center;
+  font-size: 1em;
   color: white;
+  margin: 25% auto;
+  padding: 0 10%;
+}
+
+@media (max-width: 600px) {
+  .picture {
+    width: 100%;
+    height: 100%;
+    background-image: url(../mememe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     //postion: aboslute;
+    z-index: 2;
+  }
+
+  .bio {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58,83,155,.4);
+     //postion: aboslute;
+    z-index: 2;
+    font-size: .9rem;
+
+  }
+
+  .bio p {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 25% 0;
+    padding: 5% 15%;
+  }
+
+  nav {
+     //postion: aboslute;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .bio p {
+    margin: 30% 0;
+    padding: 10% 3%;
+  }
+}
+
+/*@media (max-height: 600px) {
+  .bio p {
+    margin: 0;
+  }
+}*/
+
+/*------------------------------------
+ resume page
+------------------------------------*/
+
+#resumeContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+   //postion: aboslute;
+}
+
+/*------------------------------------
+   portfolio page
+------------------------------------*/
+
+#portfolioContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+   //postion: aboslute;
+}
+
+/*------------------------------------
+ contact page
+------------------------------------*/
+
+#contactContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+   //postion: aboslute;
+}
+
+.active {
+   //postion: aboslute;
+  z-index: 1;
+}
+
+.activeCircle {
+  background-color: white;
+  border: 2px solid white;
 }
