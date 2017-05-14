@@ -132,7 +132,7 @@ hr {
 }
 
 /*--------------------------------------
-  small screens firstPage
+  smaller screens
 --------------------------------------*/
 @media (max-width: 660px){
     #clicked {
