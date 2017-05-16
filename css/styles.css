@@ -143,7 +143,7 @@ hr {
       font-size: 1.5em;
     }
     .hello {
-      font-size: 2em;
+      font-size: 1.75em;
       top: 42%
     }
     .icons {
@@ -152,4 +152,21 @@ hr {
     h1 {
       font-size: .75em;
     }
+}
+
+@media screen and (max-width: 330px){
+    .hello {
+      font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #clicked {
+      height: 10%;
+      align-items: center;
+      justify-content: space-around;
+      align-content: center;
+    }
+    #clicked p {
+      font-size: 1.5em;
 }
