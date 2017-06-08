@@ -6,7 +6,7 @@ body, html {
   font-size: 16px;
 }
 
-.firstPage {
+.container {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -29,10 +29,10 @@ video {
   z-index: 1;
 }
 
-.firstPageContent {
+.filter {
   position: absolute;
   z-index: 2;
-  background: rgba(108,122,137,0.4);
+  background: rgba(34, 49, 63,0.75);
   top: 0;
   bottom: 0;
   left: 0;
@@ -95,7 +95,7 @@ hr {
   footer section firstPage
 --------------------------------------*/
 
-#clicked {
+#footer {
   height: 45px;
   width: 100%;
   background-color: rgb(191, 85, 236);
@@ -103,7 +103,7 @@ hr {
   z-index: 3;
   text-align: center;
   bottom: 0;
-  border-top: 3.5px solid rgba(142, 68, 173, .5);
+  border-top: 5px solid rgba(142, 68, 173, .5);
   display: inline;
   float: left;
   display: flex;
@@ -112,11 +112,11 @@ hr {
   align-items: center;
 }
 
-#clicked:hover {
+#footer:hover {
   background-color: rgb(142, 68, 173);
 }
 
-#clicked p {
+#footer p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
   border: none;
@@ -124,7 +124,7 @@ hr {
   background-color: transparent;
   align-content: space-around;
   font-weight: 900;
-  text-shadow: 0 0 20px black;
+  text-shadow: 0 0 5px white;
   padding: 0;
   margin: 0;
 }
@@ -133,13 +133,13 @@ hr {
   smaller screens
 --------------------------------------*/
 @media screen and (max-width: 480px){
-    #clicked {
+    #footer {
       height: 10%;
       align-items: center;
       justify-content: space-around;
       align-content: center;
     }
-    #clicked p {
+    #footer p {
       font-size: 1.5em;
     }
     .hello {
@@ -161,12 +161,12 @@ hr {
 }
 
 @media screen and (max-width: 768px){
-    #clicked {
+    #footer {
       height: 10%;
       align-items: center;
       justify-content: space-around;
       align-content: center;
     }
-    #clicked p {
+    #footer p {
       font-size: 1.5em;
 }
