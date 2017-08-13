@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Oswald');
 
 body, html {
   margin: 0;
@@ -12,9 +12,12 @@ body, html {
   width: 100%;
   height: 100%
 }
+.aboutMe {
+  background: orange;
+}
 
 /*--------------------------------------
- firstPage background
+ landing background
 --------------------------------------*/
 
 video {
@@ -32,7 +35,7 @@ video {
 .filter {
   position: absolute;
   z-index: 2;
-  background: rgba(34, 49, 63,0.75);
+  background: rgba(34, 49, 63,0.6);
   top: 0;
   bottom: 0;
   left: 0;
@@ -40,14 +43,14 @@ video {
 }
 
 /*--------------------------------------
-  heading section firstPage
+  heading section landing
 --------------------------------------*/
 
 .hello {
   text-align: center;
   width: auto;
   position:fixed;
-  top: 50%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0 auto;
@@ -56,9 +59,9 @@ video {
 
 h1 {
   color: white;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 3rem;
-  margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25rem;
+  margin-bottom: -70px;
   text-shadow: 0 1px 5px black;
 }
 
@@ -67,12 +70,12 @@ a {
 
 }
 
-hr {
+/*hr {
   border: 1px solid black;
-}
+}*/
 
 /*--------------------------------------
-  icon buttons firstPage
+  icon buttons landing
 --------------------------------------*/
 .icons {
   display: flex;
@@ -81,18 +84,18 @@ hr {
 }
 
 .icon {
-  padding: 15px 10px 0 10px;
+  padding: 0px 10px 0 10px;
   color: white;
-  text-shadow: 0 0 20px turquoise, 0 0 15px turquoise;
+  /*text-shadow: 0 0 20px turquoise, 0 0 15px turquoise;*/
 }
 
 .icon:hover {
-  text-shadow: 0 0 55px turquoise, 0  0 45px turquoise, 0  0 25px turquoise;
+  text-shadow: 0 0 15px turquoise;
 
 }
 
 /*--------------------------------------
-  footer section firstPage
+  footer section landing
 --------------------------------------*/
 
 #footer {
@@ -124,9 +127,12 @@ hr {
   background-color: transparent;
   align-content: space-around;
   font-weight: 900;
-  text-shadow: 0 0 5px white;
   padding: 0;
   margin: 0;
+}
+
+.glow {
+  text-shadow: 0 0 15px whitesmoke;
 }
 
 /*--------------------------------------
