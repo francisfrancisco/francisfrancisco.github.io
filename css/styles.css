@@ -79,16 +79,13 @@ a {
 --------------------------------------*/
 .icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 }
 
 .icon {
-  padding: 0px 10px 0 10px;
   color: white;
   /* text-shadow: 0 0 2px black, 0 0 2px black; */
-  /* height: 40px;
-  width: 40px; */
 }
 
 h1 {
