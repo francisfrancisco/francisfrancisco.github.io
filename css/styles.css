@@ -104,12 +104,12 @@ h1 {
 #footer {
   height: 45px;
   width: 100%;
-  background-color: rgb(191, 85, 236);
+  background-color: rgb(3, 3, 3);
   position: fixed;
   z-index: 3;
   text-align: center;
   bottom: 0;
-  border-top: 5px solid rgba(142, 68, 173, .5);
+  border-top: 5px solid rgba(10, 10, 10, .5);
   display: inline;
   float: left;
   display: flex;
